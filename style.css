@@ -1,0 +1,302 @@
+body{
+    width: 100%;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+header {
+    width: 100%;
+    height: 220px;
+    background-color: #ddd;        
+}
+h1{
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+}
+h1 img{
+    width: auto;
+    height: 300px;
+    border-radius: 20px 20px 20px 20px;       
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 10px;
+    background-color: #ddd;
+}
+nav a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight:bold;
+    font-size: 18px;
+    text-decoration: none;
+}
+nav{
+    position: absolute;
+    top: 80px;
+    right: 110px;    
+}
+.inicio{
+    width: 100%;
+    position: relative;
+    margin:0 auto;
+}
+.productos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin:0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border:2px solid black;
+    border-radius: 20px 20px 20px 20px;
+    height: 417px;
+}
+.productos li:hover{
+    border-color: #d4401f; 
+}
+
+.productos{
+   width:1050px;
+   margin:0 auto;
+   padding: 50px;
+}
+.productos h2{
+    font-size:30px;
+    font-weight: bold;
+}
+.productos li:hover h2{
+    font-size:33px;
+}
+.producto-descripcion{
+    font-size: 20px;
+}
+.producto-precio{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px ;
+}
+nav a:hover{
+    color:#d4401f;
+}
+nav a:active{
+    color:#f3f710;
+}
+footer{
+    text-align: center;
+    background: linear-gradient(45deg, #d4401f 5%, rgba(255, 166, 0, 0.829) 10% 90%, rgba(202, 7, 7, 0.808) 95% 100%);
+    height: 200px;
+    font-weight: bold;
+    color: #000000;
+}
+.principal{
+    padding: 3em 0;
+    background-color: #fefefe;
+    margin: 40px 20px 40px 20px;    
+}
+.tituloPrincipal{
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+    font-weight: bold;
+}
+.principal p{
+    margin: 0 0 1em;
+    text-align: justify;
+}
+.principal strong{
+    font-weight: bold;
+}
+.principal em{
+    font-style:italic;
+}
+.principal #mision{
+    text-align:center;
+}
+.mapa{
+    padding:3em 0;
+    background:linear-gradient(#fefefe #888888);
+}
+.mapa p{
+    margin: 0 0 2em;
+    text-align: center;
+}
+.mapaContenido{
+    width: 100%;
+    margin: 0 auto;
+}
+.contenidoDiferenciales{
+  width: 80%;
+  margin: 0 auto;
+}
+.listaDiferenciales{
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 100px 100px 0 50px;
+}
+.items{
+    line-height: 1.5;
+}
+.items:before{
+    content:"°"
+}
+.imagenDiferenciales{
+    width: 20%;
+    height: 150px;
+    transition: 400ms;
+    box-shadow: 10px 10px 30px 15px #000000;
+    margin: 100px 0 0 50px;
+}
+.imagenDiferenciales:hover{
+    opacity:0.3;
+}
+.servicio{
+    margin: 40px 0 40px 40px;
+}
+.Servicios{
+   width: 30%;
+   display: inline-block; 
+   border: solid #d4401f;
+   background-color: #ddd;
+   margin: 10px 5px 0;
+   text-align: center;
+   font-weight: bold;  
+}
+.reformas{
+    margin: 0 150px 40px;
+}
+.galeria-reformas {
+    padding: 40px 20px;    
+    background-color: #f4f4f4;
+    border-top: 3px solid #000;
+    font-family: 'Montserrat', sans-serif;
+}
+.galeria-reformas h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: #222;
+}
+.grid-reformas {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 28px;
+}
+.reforma-card {
+    background: #ffffff;
+    padding: 18px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+    transition: transform .25s ease, box-shadow .25s ease;
+}
+.reforma-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.18);
+}
+.reforma-card h3 {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 1.35rem;
+    letter-spacing: 0.5px;
+    color: #333;
+}
+.reforma-card .imagenes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+}
+.reforma-card img {
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    transition: transform .25s ease;
+}
+.reforma-card img:hover {
+    transform: scale(1.05);
+}
+.contacto{
+    padding-top: 40px;
+    margin: 0 auto;
+    margin-bottom: 5px;   
+ }
+ .contacto h4{
+    text-align: center;
+    font-size: 2.2em;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+ }
+ .pcontacto{
+    text-align: center;
+    font-size: medium;
+    font-family: 'Montserrat', sans-serif;
+    font-style: oblique;
+    margin: 20px 0 20px;
+ }
+ .contactoLg{
+    margin-top: 20px;
+}
+ .contactoLg li{
+    display: inline-block;
+    border: solid #000000 2px;
+    border-radius: 15%;     
+}     
+.autoriaPW {
+    text-align: center;
+    font-weight: bold;
+    margin: 20px 0 50px 0;
+ }
+@media screen and (max-width:900px){
+   header{
+    width: 112%;        
+    }
+    .contacto {
+    width: 120%;        
+    }
+    h1{
+    width: 100%;
+    text-align: center;
+    }
+    h1 img{
+    width: auto;
+    height: 300px;
+    margin: 0;
+    }
+    .Reformas{
+    display: inline;
+    }
+    .main{
+    width: 100%;
+    display: inline-block;
+    }
+    .principal{
+    margin: 40px 20px 40px 20px;
+    }
+    .listaDiferenciales{
+    margin: 40px 0 40px 20px;
+    position: center center;
+    }
+    .imagenDiferenciales{
+    width: auto;
+    margin: 50px 0 40px 20px ;
+    position: center center;
+    }
+    .mapa{
+    width: 110%;
+    margin: 20px 0 20px 20px;
+    }
+
+    .reformas{
+    margin: 20px 0 20px 60px;
+    }
+    .autoriaPW{
+    width: 120%;
+    margin: 20px 0 50px 0;        
+    }       
+}
