@@ -252,6 +252,7 @@ footer{
     font-weight: bold;
     margin: 20px 0 50px 0;
  }
+@media screen and (max-width:1020px){
     body{
     width: 120%;
     }
@@ -314,3 +315,4 @@ footer{
     margin: 20px 0 50px 0;        
     }       
 }
+
