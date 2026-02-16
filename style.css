@@ -252,12 +252,15 @@ footer{
     font-weight: bold;
     margin: 20px 0 50px 0;
  }
-@media screen and (max-width:900px){
+    body{
+    width: 120%;
+    }
+
    header{
-    width: 112%;        
+    width: 120%;        
     }
     .contacto {
-    width: 120%;        
+    width: 100%;        
     }
     h1{
     width: 100%;
@@ -266,7 +269,7 @@ footer{
     h1 img{
     width: auto;
     height: 300px;
-    margin: 0;
+    margin: 0 0 0 40px;
     }
     .Reformas{
     display: inline;
@@ -276,27 +279,38 @@ footer{
     display: inline-block;
     }
     .principal{
-    margin: 40px 20px 40px 20px;
+    width: 100%;
+    margin: 40px 20px 40px 40px;
     }
     .listaDiferenciales{
-    margin: 40px 0 40px 20px;
+    width: 100%;
+    margin: 40px 0 40px 130px;
     position: center center;
     }
     .imagenDiferenciales{
     width: auto;
-    margin: 50px 0 40px 20px ;
+    margin: 50px 0 40px 150px ;
     position: center center;
     }
+    .Servicios{
+    width: 100%;   
+    margin: 0 0 0 30px;
+    }  
+    .tituloPrincipal{
+        width: 100%;
+        text-align: center;
+        margin: 0 0 0 30px
+    } 
     .mapa{
     width: 110%;
     margin: 20px 0 20px 20px;
     }
-
     .reformas{
+    width: 100%;
     margin: 20px 0 20px 60px;
     }
     .autoriaPW{
-    width: 120%;
+    width: 100%;
     margin: 20px 0 50px 0;        
     }       
 }
