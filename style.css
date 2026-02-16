@@ -271,7 +271,7 @@ footer{
     h1 img{
     width: auto;
     height: 300px;
-    margin: 0 0 0 40px;
+    margin: 0 20px 0 20px;
     }
     .Reformas{
     display: inline;
@@ -324,4 +324,5 @@ footer{
     margin: 20px 0 50px 0;        
     }       
 }
+
 
