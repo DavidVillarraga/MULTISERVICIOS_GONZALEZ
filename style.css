@@ -261,7 +261,8 @@ footer{
     width: 120%;        
     }
     .contacto {
-    width: 100%;        
+    width: 100%;  
+    margin: 20px 0 20px 30px;      
     }
     h1{
     width: 100%;
@@ -281,8 +282,12 @@ footer{
     }
     .principal{
     width: 100%;
-    margin: 40px 20px 40px 40px;
+    margin: 40px 20px 40px 20px;
     }
+    .principal p{
+    margin: 20px 0 0 20px;
+    text-align: justify;
+}
     .listaDiferenciales{
     width: 100%;
     margin: 40px 0 40px 130px;
@@ -298,10 +303,14 @@ footer{
     margin: 0 0 0 30px;
     }  
     .tituloPrincipal{
-        width: 100%;
+        width: 90%;
         text-align: center;
-        margin: 0 0 0 30px
+        margin: 20px 0 20px 30px
     } 
+    .mapa p{
+    margin: 0 auto;
+    text-align: center;
+    }
     .mapa{
     width: 110%;
     margin: 20px 0 20px 20px;
@@ -315,4 +324,3 @@ footer{
     margin: 20px 0 50px 0;        
     }       
 }
-
